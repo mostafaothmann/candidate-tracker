@@ -21,7 +21,7 @@ export const getCandidates = async (page: number, search: string) => {
         },
     });
 
-    return res.data.data;
+    return res.data;
 };
 
 /**
